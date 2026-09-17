@@ -12,7 +12,7 @@ app = FastAPI(
 )
 
 
-@app.get("/")
+@app.get("/student")
 def home():
 
     return {
